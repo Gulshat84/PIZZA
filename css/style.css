@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+    
+body {    
+    font-family: "Montserrat", serif;
+    color: #FFFFFF;
+    background-color: #0B1D26;       
+}
+
+.container {
+    max-width: 1462px;
+    margin: auto;
+    padding: 0 230px;
+}
+
+.header {
+    width: 100%;
+    display:block;
+    position:absolute;
+    top:0;
+    z-index: 1;
+    background-color: transparent;
+}
+
+.top-container {
+    max-width: 1760px;
+    margin: auto;
+    padding: 64px 80px;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-link {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.header-account {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100px;
+}
+
+.main-gradient {
+    width: 100%;
+    display:block;
+    position:absolute;
+    top:0;
+    z-index: -1;
+}
+.main-mountains {
+    width: 100%;
+    display:block;
+    position:absolute;
+    top:0;
+    z-index: -2;
+}
+.main-darkness {
+    display:block;
+    position:absolute;
+    top: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.main-darkness img {
+    width: 100%;
+}
+.main-box {
+    margin-top: 287px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.main-socials span {
+    font-size: 18px;
+    font-weight: bold;
+    writing-mode: vertical-rl
+}
+.main-socials img {
+    width: 24px;
+}
+.main-content {
+    max-width: 950px;
+    height: 200px;    
+}
+.main-title {
+    margin: 32px 0;
+    font-family: "STIX Two Text", serif;
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 500;
+}
+.content-subtitile {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.content-subtitile--line {
+    width: 72px;
+    height: 2px;
+    background-color: #FBD784;
+}
+.content-subtitile--span {
+    color: #FBD784;
+}
+.main-button {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    text-decoration: none;
+}
+.main-button span {    
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+}
+.main-icon {
+    width: 16px;
+    height: 24px;
+}
+
