@@ -8,10 +8,11 @@ body {
     background-color: #0B1D26;       
 }
 
-.container {
-    max-width: 1462px;
+.container {    
     margin: auto;
-    padding: 0 230px;
+    padding: 0 200px;
+    top: -300px;
+    position: relative;
 }
 
 .header {
@@ -74,7 +75,7 @@ body {
     display:block;
     position:absolute;
     top: 100%;
-    width: 100%;
+    width: 100%;    
     z-index: -1;
 }
 .main-darkness img {
@@ -108,7 +109,7 @@ body {
 .main-title {
     margin: 32px 0;
     font-family: "STIX Two Text", serif;
-    font-size: 50px;
+    font-size: 80px;
     line-height: 70px;
     font-weight: 500;
 }
@@ -123,6 +124,8 @@ body {
     background-color: #FBD784;
 }
 .content-subtitile--span {
+    font-size: 18px;
+    font-weight: bold;
     color: #FBD784;
 }
 .main-button {
@@ -140,4 +143,110 @@ body {
     width: 16px;
     height: 24px;
 }
+.main-scrollbar {
+    width: 80px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;    
+}
+.main-scrolltext {       
+    font-size: 18px;
+    font-weight: 700;
+    align-self: center;
+}
+.main-scrollcontent {
+    display: flex;
+    gap: 32px;
+}
+.main-scrollline {
+    width: 1px;
+    height: 60px;
+    background-color: #fff;
+}
+
+.articles {
+    margin-top: 1100px;
+}
+.articles-darkness {
+    max-height: 2600px;
+    width: 100%;
+    background-color: #0B1D26;
+}
+.article-box {
+    display: flex;
+    justify-content: space-between;    
+    gap: 114px;    
+}
+.article-content {
+    position: relative;
+    padding: 140px 0 140px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;    
+}
+.article-image {
+    width: 566px;
+    height: 720px;
+    overflow: hidden;
+}
+.article-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.article-count {
+    position: absolute;
+    margin-top: -103px;
+    margin-left: -150px;
+    opacity: 10%;
+}
+.article-count span {
+    font-size: 240px;
+    font-weight: bold;
+}
+.article-subtitle {
+    display: flex;
+    gap: 32px;
+    align-items: center;    
+}
+.article-subtitle h3 {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 6px;
+    color: #FBD784;
+    margin: 0;
+    padding: 0;
+}
+.article-line {
+    width: 72px;
+    height: 2px;
+    background-color: #FBD784;
+}
+.article-title h2 {
+    font-size: 50px;
+    font-family: "STIX Two Text", serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+.article-text {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: bold;
+}
+.article-link {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    text-decoration: none;
+    color: #FBD784;
+}
+.article-link {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
 
