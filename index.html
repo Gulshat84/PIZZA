@@ -15,14 +15,19 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header header-mobile header-mobile--fixed">
         <div class="top-container">
             <div class="header-wrapper">
                 
                 <a class="logo" href="#">
                     <img src="img/logo-image.svg" alt="Логотип" class="logo-image">
                 </a>
-
+                <button class="menu-button">
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                </button>
+                
                 <div class="header-nav">
                     <a href="#" class="header-link">Equipment</a>
                     <a href="#" class="header-link">About us</a>
@@ -47,10 +52,15 @@
         <img class="main-gradient" src="img/gradient.png" alt="Градиент">
         <div class="top-container">
             <div class="main-box">
+                
                 <div class="main-socials">
                     <span>Follow us</span>
-                    <img src="img/instagram.svg" alt="Icon: instagram">
-                    <img src="img/twitter.svg" alt="Icon: twitter">
+                    <a href="#">
+                        <img src="img/instagram.svg" alt="Icon: instagram">
+                    </a>
+                    <a href="#">
+                        <img src="img/twitter.svg" alt="Icon: twitter">
+                    </a>
                 </div>
                 <!-- /.main-socials -->
                 <div class="main-content">
@@ -69,25 +79,25 @@
                 
                 <!-- /.main-content -->
                 <div class="main-scrollbar">
-                    <div class="main-scrollcontent">
+                    <a href="#" class="main-scrollcontent">
                         <span class="main-scrolltext">Start</span>
                         <div class="main-scrollline"></div>
-                    </div>
+                    </a>
                     <!-- /.main-scrollcontent -->
-                    <div class="main-scrollcontent">
+                    <a href="#article1" class="main-scrollcontent">
                         <span class="main-scrolltext">01</span>
                         <div class="main-scrollline"></div>
-                    </div>
+                    </a>
                     <!-- /.main-scrollcontent -->
-                    <div class="main-scrollcontent">
+                    <a href="#article2" class="main-scrollcontent">
                         <span class="main-scrolltext">02</span>
                         <div class="main-scrollline"></div>
-                    </div>
+                    </a>
                     <!-- /.main-scrollcontent -->
-                    <div class="main-scrollcontent">
+                    <a href="#article3" class="main-scrollcontent">
                         <span class="main-scrolltext">03</span>
                         <div class="main-scrollline"></div>
-                    </div>
+                    </a>
                     <!-- /.main-scrollcontent -->
                     
                     <div >                       
@@ -113,153 +123,154 @@
      </section>     
      <!-- /.main -->
      <section class="articles">
-        <div class="articles-darkness">
-            <div class="container">
-                <div class="article-box">
-                    <div class="article-content">
-                        <div class="article-count">
-                            <span>01</span>
-                        </div>
-                        <div class="article-subtitle">
-                            <div class="article-line"></div>
-                            <h3>GET STARTED</h3>
-                        </div>
-                        <div class="article-title">
-                            <h2>What level of  hiker<br>are you?</h2>
-                        </div>
-                        <div class="article-text">
-                            Determining what level of hiker you are can be an important tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various websites like All Trails and Modern Hiker. What type of hiker are you – novice, moderate, advanced moderate, expert, or expert backpacker?
-                        </div>
-                        <a href="#" class="article-link">
-                            <span>read more</span>
-                            <img src="img/article-arrow.svg" alt="The right arrow icon" class="article-arrow">
-                        </a>                                        
+        <div class="container">
+            <div class="article-box" id="article1">
+                <div class="article-content">
+                    <div class="article-count">
+                        <span>01</span>
                     </div>
-                    <div class="article-image">
-                        <img src="img/article-image-01.jpg" alt="Photo: A trip to the mountains">
+                    <div class="article-subtitle">
+                        <div class="article-line"></div>
+                        <h3>GET STARTED</h3>
                     </div>
-                    <!-- /.article-content -->
+                    <div class="article-title">
+                        <h2>What level of  hiker<br>are you?</h2>
+                    </div>
+                    <div class="article-text">
+                        Determining what level of hiker you are can be an important tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various websites like All Trails and Modern Hiker. What type of hiker are you – novice, moderate, advanced moderate, expert, or expert backpacker?
+                    </div>
+                    <a href="#" class="article-link">
+                        <span>read more</span>
+                        <img src="img/article-arrow.svg" alt="The right arrow icon" class="article-arrow">
+                    </a>                                        
                 </div>
-                <!-- /.article-box -->
-
-                <div class="article-box">
-                    <div class="article-image">
-                        <img src="img/article-image-02.jpg" alt="Photo: A trip to the mountains">
-                    </div>
-                    <div class="article-content">
-                        <div class="article-count">
-                            <span>02</span>
-                        </div>
-                        <div class="article-subtitle">
-                            <div class="article-line"></div>
-                            <h3>HIKING ESSENTIALS</h3>
-                        </div>
-                        <div class="article-title">
-                            <h2>Picking the right<br>Hiking Gear!</h2>
-                        </div>
-                        <div class="article-text">
-                            The nice thing about beginning hiking is that you don’t really need any special gear, you can probably get away with things you already have. Let’s start with clothing. A typical mistake hiking beginners make is wearing jeans and regular clothes, which will get heavy and chafe wif they get sweaty or wet.
-                        </div>
-                        <a href="#" class="article-link">
-                            <span>read more</span>
-                            <img src="img/article-arrow.svg" alt="The right arrow icon" class="article-arrow">
-                        </a>                                        
-                    </div>
-                    
-                    <!-- /.article-content -->
+                <div class="article-image">
+                    <img src="img/article-image-01.jpg" alt="Photo: A trip to the mountains">
                 </div>
-                <!-- /.article-box -->
-
-                <div class="article-box">
-                    <div class="article-content">
-                        <div class="article-count">
-                            <span>03</span>
-                        </div>
-                        <div class="article-subtitle">
-                            <div class="article-line"></div>
-                            <h3>WHERE YOU GO IS THE KEY</h3>
-                        </div>
-                        <div class="article-title">
-                            <h2>Understand Your<br>Map & Timing</h2>
-                        </div>
-                        <div class="article-text">
-                            To start, print out the hiking guide and map. If it’s raining, throw them in a Zip-Lock bag. Read over the guide, study the map, and have a good idea of what to expect. I like to know what my next landmark is as I hike. For example, I’ll read the guide and know that say, in a mile, I make a right turn at the junction..
-                        </div>
-                        <a href="#" class="article-link">
-                            <span>read more</span>
-                            <img src="img/article-arrow.svg" alt="The right arrow icon" class="article-arrow">
-                        </a>                                        
-                    </div>
-                    <div class="article-image">
-                        <img src="img/article-image-03.jpg" alt="Photo: A trip to the mountains">
-                    </div>
-                    <!-- /.article-content -->
-                </div>
-                <div class="footer">
-                    <div class="footer-container">
-                        <div class="footer-rihgt">
-                            <div class="footer-links">
-                                <a class="logo" href="#">
-                                    <img src="img/logo-image.svg" alt="Логотип">
-                                </a>
-                                <a class="footer-guide" href="#">
-                                    <span>Get out there & discover your next<br>slope, mountain & destination!</span>
-                                </a>
-                            </div>
-                            <div class="footer-privacy">
-                                <a>
-                                    <span>Copyright 2019 MNTN, Inc. Terms & Privacy</span>
-                                </a>
-                            </div>            
-                                        
-                        </div>
-                        <!-- /.footer-rihgt -->
-                        <div class="footer-left">
-                            <ul class="footer-blog">
-                                <h4>More on The Blog</h4>
-                                <li class="footer-item">
-                                    <a href="#">About MNTN</a>
-                                </li>
-                                <li class="footer-item">
-                                    <a href="#">Contributors & Writers</a>
-                                </li>
-                                <li class="footer-item">
-                                    <a href="#">Write For Us</a>
-                                </li>
-                                <li class="footer-item">
-                                    <a href="#">Contact Us</a>
-                                </li>
-                                <li class="footer-item">
-                                    <a href="#">
-                                        Privacy Policy
-                                    </a>
-                                </li>
-                            </ul>
-                            <!-- /.footer-blog -->
-                            <ul class="footer-team">
-                                <h4>More on MNTN</h4>
-                                <li class="footer-item">
-                                    <a href="#">The Team</a>
-                                </li>
-                                <li class="footer-item">
-                                    <a href="#">Jobs</a>
-                                </li>
-                                <li class="footer-item">
-                                    <a href="#">Press</a>
-                                </li>                
-                            </ul>
-                            <!--/.footer-team-->
-                        </div>
-                        <!-- /.footer-left -->
-                    </div>
-                    <!-- /.container -->
-                    
-                 </div>
-                 <!-- /.footer -->
-                <!-- /.article-box -->              
-                
+                <!-- /.article-content -->
             </div>
-            <!-- /.container -->
+            <!-- /.article-box -->
+
+            <div class="article-box" id="article2">
+                <div class="article-image">
+                    <img src="img/article-image-02.jpg" alt="Photo: A trip to the mountains">
+                </div>
+                <div class="article-content">
+                    <div class="article-count">
+                        <span>02</span>
+                    </div>
+                    <div class="article-subtitle">
+                        <div class="article-line"></div>
+                        <h3>HIKING ESSENTIALS</h3>
+                    </div>
+                    <div class="article-title">
+                        <h2>Picking the right<br>Hiking Gear!</h2>
+                    </div>
+                    <div class="article-text">
+                        The nice thing about beginning hiking is that you don’t really need any special gear, you can probably get away with things you already have. Let’s start with clothing. A typical mistake hiking beginners make is wearing jeans and regular clothes, which will get heavy and chafe wif they get sweaty or wet.
+                    </div>
+                    <a href="#" class="article-link">
+                        <span>read more</span>
+                        <img src="img/article-arrow.svg" alt="The right arrow icon" class="article-arrow">
+                    </a>                                        
+                </div>
+                
+                <!-- /.article-content -->
+            </div>
+            <!-- /.article-box -->
+
+            <div class="article-box" id="article3">
+                <div class="article-content">
+                    <div class="article-count">
+                        <span>03</span>
+                    </div>
+                    <div class="article-subtitle">
+                        <div class="article-line"></div>
+                        <h3>WHERE YOU GO IS THE KEY</h3>
+                    </div>
+                    <div class="article-title">
+                        <h2>Understand Your<br>Map & Timing</h2>
+                    </div>
+                    <div class="article-text">
+                        To start, print out the hiking guide and map. If it’s raining, throw them in a Zip-Lock bag. Read over the guide, study the map, and have a good idea of what to expect. I like to know what my next landmark is as I hike. For example, I’ll read the guide and know that say, in a mile, I make a right turn at the junction..
+                    </div>
+                    <a href="#" class="article-link">
+                        <span>read more</span>
+                        <img src="img/article-arrow.svg" alt="The right arrow icon" class="article-arrow">
+                    </a>                                        
+                </div>
+                <div class="article-image">
+                    <img src="img/article-image-03.jpg" alt="Photo: A trip to the mountains">
+                </div>
+                <!-- /.article-content -->
+            </div>
+            <div class="footer">
+                <div class="footer-container">
+                    <div class="footer-rihgt">
+                        <div class="footer-links">
+                            <a class="logo" href="#">
+                                <img src="img/logo-image.svg" alt="Логотип">
+                            </a>
+                            <a class="footer-guide" href="#">
+                                <span>Get out there & discover your next<br>slope, mountain & destination!</span>
+                            </a>
+                        </div>
+                        <div class="footer-privacy">
+                            <a>
+                                <span>Copyright 2019 MNTN, Inc. Terms & Privacy</span>
+                            </a>
+                        </div>            
+                                    
+                    </div>
+                    <!-- /.footer-rihgt -->
+                    <div class="footer-left">
+                        <ul class="footer-blog">
+                            <h4>More on The Blog</h4>
+                            <li class="footer-item">
+                                <a href="#">About MNTN</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#">Contributors & Writers</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#">Write For Us</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#">Contact Us</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#">
+                                    Privacy Policy
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- /.footer-blog -->
+                        <ul class="footer-team">
+                            <h4>More on MNTN</h4>
+                            <li class="footer-item">
+                                <a href="#">The Team</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#">Jobs</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#">Press</a>
+                            </li>                
+                        </ul>
+                        <!--/.footer-team-->
+                    </div>
+                    <!-- /.footer-left -->
+                </div>
+                <!-- /.container -->
+                
+             </div>
+             <!-- /.footer -->
+            <!-- /.article-box -->              
+            
+        </div>
+        <!-- /.container -->
+        <div class="articles-darkness">
+            
         </div>
                 
      </section>
